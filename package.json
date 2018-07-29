@@ -1,0 +1,30 @@
+{
+  "name": "review-example",
+  "version": "1.0.0",
+  "description": "Code review example repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zhigalov/review-example.git"
+  },
+  "keywords": [
+    "codereview"
+  ],
+  "author": "Sergey Zhigalov <sergey.zhigalov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zhigalov/review-example/issues"
+  },
+  "homepage": "https://github.com/Zhigalov/review-example#readme",
+  "dependencies": {
+    "got": "^8.3.2",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "nock": "^9.4.2"
+  }
+}
